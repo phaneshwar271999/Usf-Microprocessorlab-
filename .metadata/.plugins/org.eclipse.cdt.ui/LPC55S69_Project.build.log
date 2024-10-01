@@ -1,0 +1,9 @@
+17:50:16 **** Build of configuration Debug for project LPC55S69_Project ****
+make -r -j8 all 
+Building target: LPC55S69_Project.axf
+make[1]: *** [makefile:51: LPC55S69_Project.axf] Error 141
+make: *** [makefile:43: all] Error 2
+"make -r -j8 all" terminated with exit code 2. Build might be incomplete.
+
+17:50:17 Build Failed. 2 errors, 0 warnings. (took 705ms)
+

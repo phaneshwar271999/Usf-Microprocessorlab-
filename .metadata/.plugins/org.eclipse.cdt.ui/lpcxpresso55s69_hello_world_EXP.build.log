@@ -1,0 +1,14 @@
+17:50:22 **** Build of configuration Debug for project lpcxpresso55s69_hello_world_EXP ****
+make -r -j8 all 
+Building file: ../utilities/fsl_assert.c
+make[1]: *** [utilities/subdir.mk:29: utilities/fsl_debug_console.o] Error 141
+make[1]: *** Waiting for unfinished jobs....
+make[1]: *** [utilities/subdir.mk:35: utilities/fsl_memcpy.o] Error 141
+make[1]: *** [utilities/subdir.mk:29: utilities/fsl_str.o] Error 141
+make[1]: *** [startup/subdir.mk:21: startup/boot_multicore_slave.o] Error 141
+make[1]: *** [utilities/subdir.mk:29: utilities/fsl_assert.o] Error 141
+make: *** [makefile:42: all] Error 2
+"make -r -j8 all" terminated with exit code 2. Build might be incomplete.
+
+17:50:23 Build Failed. 7 errors, 0 warnings. (took 289ms)
+

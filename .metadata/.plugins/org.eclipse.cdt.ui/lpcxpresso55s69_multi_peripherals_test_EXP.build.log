@@ -1,0 +1,21 @@
+17:50:29 **** Build of configuration Debug for project lpcxpresso55s69_multi_peripherals_test_EXP ****
+make -r -j8 all 
+Building file: ../utilities/fsl_assert.c
+Building file: ../utilities/fsl_debug_console.c
+Building file: ../utilities/fsl_memcpy.S
+Building file: ../utilities/fsl_str.c
+Invoking: MCU C Compiler
+Building file: ../usb/phy/usb_phy.c
+Invoking: MCU C Compiler
+make[1]: *** [utilities/subdir.mk:36: utilities/fsl_memcpy.o] Error 141
+make[1]: *** Waiting for unfinished jobs....
+make[1]: *** [utilities/subdir.mk:30: utilities/fsl_str.o] Error 141
+make[1]: *** [usb/phy/subdir.mk:19: usb/phy/usb_phy.o] Error 141
+make[1]: *** [utilities/subdir.mk:31: utilities/fsl_assert.o] Error 141
+make[1]: *** [utilities/subdir.mk:31: utilities/fsl_debug_console.o] Error 141
+make[1]: write error: stdout
+make: *** [makefile:60: all] Error 1
+"make -r -j8 all" terminated with exit code 2. Build might be incomplete.
+
+17:50:30 Build Failed. 7 errors, 0 warnings. (took 1s.142ms)
+

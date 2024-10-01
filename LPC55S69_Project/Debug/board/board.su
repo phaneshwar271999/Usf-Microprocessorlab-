@@ -1,0 +1,2 @@
+C:\Users\PHANESHWWAR\Documents\MCUXpressoIDE_11.10.0_3148\workspace\LPC55S69_Project\utilities/fsl_debug_console.h:154:24:DbgConsole_Init	24	static
+../board/board.c:21:6:BOARD_InitDebugConsole	16	static
